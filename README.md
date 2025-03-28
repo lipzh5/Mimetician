@@ -4,7 +4,10 @@ An implementation of the imitation framework **Mimetician** in paper
 _**X2C: A Benchmark Featuring Nuanced Facial Expressions 
 for Realistic Humanoid Imitation**_
 ### Setup
-"""
+
+
+```
+conda create -n mimetician python=3.9
 conda create -n mimetician python=3.9
 conda activate mimetician
 conda install pytorch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 pytorch-cuda=12.1 -c pytorch -c nvidia
@@ -23,6 +26,4 @@ pip install imageio
 pip install scikit-image
 pip install imageio[ffmpeg]
 pip install pandas
-
-
-"""
+```
